@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Codificador de texto</title>
+    <link rel="icon" href="ico.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <a href="index.html" title="Home">
+                <img src="alura.png" alt="Logo da Alura." width="120" height="48" id="logo">
+            </a>
+        </h1>
+        <h2>
+            <a href="https://www.oracle.com/br/education/oracle-next-education/" title="Oracle Next Education.">
+                <img src="one.png" alt="Oracle Next Education." width="115" height="70">
+            </a>
+        </h2>
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="9"
+                placeholder="Digite seu texto com Letras minúsculas e sem acentos..."></textarea>
+
+            <div class="informacao">
+                <ul class="mensagens-erro"></ul>
+            </div>
+
+            <div class="botoes">
+                <button type="button" class="btn-codificar">Codificar</button>
+                <button type="button" class="btn-decodificar">Decodificar</button>
+            </div>
+        </section>
+
+        <section class="container">
+            <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+            <button type="button" class="invisivel btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="sociais">
+            <p>Redes Sociais</p>
+
+            <a href="https://github.com/LucioVitoria" title="LucioVitoria GitHub" target="_blank">
+                <img src="git.png" alt="Logo GitHub." width="60" height="60" id="github">
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/devluciojunior/" title="devluciojunior Linkedin" target="_blank">
+                <img src="linkedin.png" alt="Logo do LinkedIn em formato circular" width="45" height="45" id="linkedin">
+                LinkedIn
+            </a>
+            <a href="https://www.instagram.com/luciusjunior_/" title="@luciusjunior_ Instagram" target="">
+                <img src="insta.png" alt="Logo do Instagram" width="45" height="45" id="instagram">
+                Instagram
+            </a>
+        </div>
+
+        <div class="produzido">
+            <p>&#169; Produzido por Lúcio da Vitória Júnior a| Dezembro/2022</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
